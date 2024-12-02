@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'react-dom': 'react-dom/client'
+      'react-dom': 'react-dom/client',
+      'react-dom/*': 'react-dom/client/*'
     }
   }
 })
